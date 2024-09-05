@@ -10,9 +10,19 @@ Proyek ini merupakan bagian dari seleksi Asisten Lab GaIB ‘22 Bagian 4 : Reinf
 
 ## Cara Penggunaan
 
+Versi Q-Learning dan SARSA
 ```
 python main.py
 ```
+
+Jika ingin memainkan game nya sendiri
+```
+python main_sendiri.py
+```
+
+## Catatan
+
+Pastikan sudah menginstall numpy
 
 ## Checklist Algoritma yang Diimplementasikan
 - [v] Q-LEARNING
