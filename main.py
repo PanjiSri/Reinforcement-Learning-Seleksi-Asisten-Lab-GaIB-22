@@ -39,7 +39,7 @@ if __name__ == "__main__":
         state, reward, _ = permainan.langkah('kiri' if action == 0 else 'kanan')
         path.append(state)
         total_reward += reward
-        # permainan.tampilkan()
+        permainan.tampilkan()
     
     print("\nJalur yang diambil oleh pemain (Q-Learning):")
     print(path)
@@ -63,7 +63,7 @@ if __name__ == "__main__":
         state, reward, _ = permainan.langkah('kiri' if action == 0 else 'kanan')
         path.append(state)
         total_reward += reward
-        # permainan.tampilkan()
+        permainan.tampilkan()
     
     print("\nJalur yang diambil oleh pemain (SARSA):")
     print(path)
